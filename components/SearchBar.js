@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet, TextInput, View } from "react-native";
-import React, { useState } from "react";
+import React from "react";
 import Colors from "../constants/Colors";
 import { MaterialCommunityIcons, Feather } from "@expo/vector-icons";
 import useColorScheme from "../hooks/useColorScheme";

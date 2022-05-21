@@ -1,13 +1,13 @@
-import { Image, Pressable, StyleSheet, Text } from "react-native";
 import React from "react";
+import { Image, StyleSheet, Text, TouchableOpacity } from "react-native";
 import Colors from "../constants/Colors";
 
 const BrandItem = ({ item }) => {
 	return (
-		<Pressable style={styles.wrapper}>
+		<TouchableOpacity activeOpacity={0.5} style={styles.wrapper}>
 			<Image source={{ uri: item.image }} style={styles.brandImage} />
 			<Text>{item.name}</Text>
-		</Pressable>
+		</TouchableOpacity>
 	);
 };
 

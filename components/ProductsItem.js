@@ -1,22 +1,24 @@
-import { Image, StyleSheet, View } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
 import React from "react";
+import { Image, StyleSheet, TouchableOpacity, View } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
 import { FONTS, SIZES } from "../constants";
 import Text from "./Text";
 import Colors from "../constants/Colors";
 
 const ProductsItem = ({ item }) => {
 	return (
-		<View style={styles.itemWrapper}>
+		<TouchableOpacity activeOpacity={0.5} style={styles.itemWrapper}>
 			<View style={styles.imageWrapper}>
 				<Image source={{ uri: item.images[0] }} style={styles.image} />
-				<Ionicons name="heart-outline" size={28} style={styles.heartIcon} />
+				<TouchableOpacity style={styles.heartIcon}>
+					<Ionicons name="heart-outline" size={25} />
+				</TouchableOpacity>
 			</View>
 			<View style={{ width: "93%" }}>
 				<Text style={[FONTS.title, { marginVertical: 5 }]}>{item.title}</Text>
 				<Text style={FONTS.price}>${item.price}</Text>
 			</View>
-		</View>
+		</TouchableOpacity>
 	);
 };
 

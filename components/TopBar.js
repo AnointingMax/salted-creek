@@ -1,5 +1,5 @@
-import { Pressable, StyleSheet, View } from "react-native";
 import React from "react";
+import { Pressable, StyleSheet, View } from "react-native";
 import Colors from "../constants/Colors";
 
 const TopBar = ({ leftIcon, rightIcon }) => {

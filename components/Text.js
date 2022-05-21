@@ -1,5 +1,5 @@
-import { Text as DefaultText } from "react-native";
 import React from "react";
+import { Text as DefaultText } from "react-native";
 import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
 

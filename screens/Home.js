@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-	FlatList,
-	Pressable,
-	SafeAreaView,
-	StyleSheet,
-	View,
-} from "react-native";
+import { FlatList, SafeAreaView, StyleSheet } from "react-native";
 import {
 	Text,
 	ProductsItem,
@@ -34,7 +28,7 @@ const Home = () => {
 				showsVerticalScrollIndicator={false}
 				renderItem={({ item }) => <ProductsItem item={item} />}
 				ListHeaderComponent={
-					<View>
+					<>
 						<TopBar
 							leftIcon={
 								<MaterialCommunityIcons
@@ -67,7 +61,7 @@ const Home = () => {
 							contentContainerStyle={{ paddingLeft: 17 }}
 						/>
 						<SectionHeader title="New Arrivals" />
-					</View>
+					</>
 				}
 			/>
 		</SafeAreaView>

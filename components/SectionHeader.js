@@ -1,5 +1,5 @@
-import { StyleSheet, View } from "react-native";
 import React from "react";
+import { StyleSheet, TouchableOpacity, View } from "react-native";
 import { FONTS } from "../constants";
 import Text from "./Text";
 
@@ -7,7 +7,9 @@ const SectionHeader = ({ title }) => {
 	return (
 		<View style={styles.wrapper}>
 			<Text style={FONTS.header}>{title}</Text>
-			<Text style={{ opacity: 0.4 }}>View All</Text>
+			<TouchableOpacity>
+				<Text style={{ opacity: 0.4 }}>View All</Text>
+			</TouchableOpacity>
 		</View>
 	);
 };

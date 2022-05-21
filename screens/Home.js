@@ -41,11 +41,12 @@ const Home = () => {
 								<SimpleLineIcons name="handbag" size={20} color="black" />
 							}
 						/>
-						<Text style={[FONTS.h1, { paddingHorizontal: 17 }]}>Hello</Text>
+						<Text style={[FONTS.h1, styles.padding]}>Hello</Text>
 						<Text
 							style={[
 								FONTS.h2,
-								{ paddingHorizontal: 17, color: Colors[colorScheme].tint },
+								styles.padding,
+								{ color: Colors[colorScheme].tint },
 							]}
 						>
 							Welcome to Saltedcreek Emporium
@@ -58,7 +59,7 @@ const Home = () => {
 							horizontal
 							renderItem={({ item }) => <BrandItem item={item} />}
 							showsHorizontalScrollIndicator={false}
-							contentContainerStyle={{ paddingLeft: 17 }}
+							contentContainerStyle={styles.padding}
 						/>
 						<SectionHeader title="New Arrivals" />
 					</>
@@ -74,4 +75,5 @@ const styles = StyleSheet.create({
 	page: {
 		flex: 1,
 	},
+	padding: { paddingHorizontal: 17 },
 });

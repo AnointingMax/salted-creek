@@ -10,6 +10,7 @@ const FONTS = {
 		fontSize: 32,
 		letterSpacing: 0.2,
 		fontWeight: "600",
+		textTransform: "capitalize",
 	},
 	header: {
 		fontSize: 18,
@@ -19,6 +20,13 @@ const FONTS = {
 		fontSize: 16,
 		letterSpacing: 0.2,
 		fontWeight: "300",
+	},
+	productSubTitle: {
+		fontSize: 15,
+		letterSpacing: 0.8,
+		fontWeight: "300",
+		textTransform: "capitalize",
+		opacity: 0.55,
 	},
 };
 

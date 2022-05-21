@@ -1,12 +1,39 @@
 import React from "react";
-import { Pressable, StyleSheet, View } from "react-native";
+import { StyleSheet, TouchableOpacity, View } from "react-native";
 import Colors from "../constants/Colors";
 
-const TopBar = ({ leftIcon, rightIcon }) => {
+const TopBar = ({
+	style,
+	leftIcon,
+	rightIcon,
+	leftIconPress,
+	rightIconPress,
+	iconColor,
+}) => {
 	return (
-		<View style={styles.wrapper}>
-			<Pressable style={styles.iconButton}>{leftIcon}</Pressable>
-			<Pressable style={styles.iconButton}>{rightIcon}</Pressable>
+		<View style={[styles.wrapper, style]}>
+			<TouchableOpacity
+				onPress={leftIconPress}
+				style={[
+					styles.iconButton,
+					{
+						backgroundColor: iconColor,
+					},
+				]}
+			>
+				{leftIcon}
+			</TouchableOpacity>
+			<TouchableOpacity
+				onPress={rightIconPress}
+				style={[
+					styles.iconButton,
+					{
+						backgroundColor: iconColor,
+					},
+				]}
+			>
+				{rightIcon}
+			</TouchableOpacity>
 		</View>
 	);
 };
@@ -19,9 +46,9 @@ const styles = StyleSheet.create({
 		justifyContent: "space-between",
 		marginBottom: 10,
 		paddingHorizontal: 17,
+		zIndex: 1,
 	},
 	iconButton: {
-		backgroundColor: Colors.greyBackground,
 		padding: 12,
 		borderRadius: "50%",
 	},

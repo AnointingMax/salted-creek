@@ -63,6 +63,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/da337978-f582-4423-9803-f6190d6c7641/sportswear-jersey-crew-MtHpfn.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/158c8952-9017-4698-bd2c-824bf3538601/sportswear-jersey-crew-MtHpfn.png",
 		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+		],
 	},
 	{
 		id: 1,
@@ -79,6 +146,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/11e39ed2-982e-427f-b80d-56e56ddefe77/air-max-plus-shoes-NhxrQd.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3c3749a7-6415-45cc-a9e4-44555df3931f/air-max-plus-shoes-NhxrQd.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0a38d841-873a-4779-85d5-f7c1203a6dc4/air-max-plus-shoes-NhxrQd.png",
+		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
 		],
 	},
 	{
@@ -100,6 +234,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e0fd539c-2df1-4c7a-ad1b-87b5e7805b5c/lebron-19-basketball-shoes-Tshbtg.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0fb22d94-134f-4b91-b3c4-cb8c21d68678/lebron-19-basketball-shoes-Tshbtg.png",
 		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+		],
 	},
 	{
 		id: 3,
@@ -115,6 +316,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/52a54b82-0f42-4c49-b140-83ef44cce7c4/jordan-zoom-separate-basketball-shoes-WbB4xC.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/adaa9096-4273-4610-a617-5d480d1eba3a/jordan-zoom-separate-basketball-shoes-WbB4xC.png",
 			'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/693fcd88-ed4e-466a-b384-ddfc631ca26b/jordan-zoom-separate-basketball-shoes-WbB4xC.png"',
+		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
 		],
 	},
 	{
@@ -133,6 +401,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/875d8799-bb78-4215-9c26-aefd8e3eb662/kyrie-infinity-basketball-shoes-MKdt51.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b643c50e-73d0-4f7f-a064-63ba9d9fc13b/kyrie-infinity-basketball-shoes-MKdt51.png",
 		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+		],
 	},
 	{
 		id: 5,
@@ -145,6 +480,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/b62dbf5d-11ee-4c63-995f-c80630157cd4/chelsea-fc-2021-22-stadium-home-football-shirt-410Z26.png",
 			"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5,q_80/97d937db-98ee-4e7a-8e07-580e183e57cb/chelsea-fc-2021-22-stadium-home-football-shirt-410Z26.png",
 			"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5,q_80/2ca5d7eb-a205-4400-91ff-96dc29437bcd/chelsea-fc-2021-22-stadium-home-football-shirt-410Z26.png",
+		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
 		],
 	},
 	{
@@ -163,6 +565,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5f1a8f85-d3d9-4876-8f70-29be0325a887/club-america-2021-22-stadium-home-football-shirt-1cxF06.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/595011ca-61e5-4642-99a3-19f051f3df44/club-america-2021-22-stadium-home-football-shirt-1cxF06.png",
 		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+		],
 	},
 	{
 		id: 7,
@@ -178,6 +647,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/701c0867-3f39-48be-bb3e-9912fdff82f8/sportswear-fleece-pullover-hoodie-XbTtVK.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ec088410-7aec-41ef-b560-308287b66185/sportswear-fleece-pullover-hoodie-XbTtVK.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/087b07b8-4d75-4c3a-955a-6d355a8c3416/sportswear-fleece-pullover-hoodie-XbTtVK.png",
+		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
 		],
 	},
 	{
@@ -195,6 +731,73 @@ const products = [
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/9c81cc52-fb99-4aea-9607-b41b801851ff/lebron-pullover-hoodie-KNcZV7.png",
 			"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/986c7753-d031-488d-b564-4d824c8e9ba0/lebron-pullover-hoodie-KNcZV7.png",
 		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+		],
 	},
 	{
 		id: 9,
@@ -211,7 +814,76 @@ const products = [
 			"https://static.nike.com/a/images/t_prod/w_1920,c_limit,f_auto,q_auto/d0a16c00-0e32-40a3-96fc-38c95d457d1f/image.jpg",
 			"https://static.nike.com/a/images/t_prod/w_1920,c_limit,f_auto,q_auto/672e544e-732c-4d14-90bd-a752205da2da/image.jpg",
 		],
+		reviews: [
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+		],
 	},
 ];
 
-export { brands, categories, products };
+const sizes = ["2XS", "2XS", "XS", "S", "M", "L", "XL", "2XL", "3XL"];
+
+export { brands, categories, products, sizes };

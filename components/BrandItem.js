@@ -1,12 +1,24 @@
+import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import { Image, StyleSheet, Text, TouchableOpacity } from "react-native";
 import Colors from "../constants/Colors";
 
-const BrandItem = ({ item }) => {
+const BrandItem = ({ item, noName }) => {
+	const navigation = useNavigation();
+
 	return (
-		<TouchableOpacity activeOpacity={0.5} style={styles.wrapper}>
-			<Image source={{ uri: item.image }} style={styles.brandImage} />
-			<Text>{item.name}</Text>
+		<TouchableOpacity
+			activeOpacity={0.5}
+			style={styles.wrapper}
+			onPress={() =>
+				noName ? null : navigation.navigate("Search", { brand: item.name })
+			}
+		>
+			<Image
+				source={{ uri: item.image }}
+				style={[styles.brandImage, { marginRight: noName ? 0 : 7 }]}
+			/>
+			{!noName && <Text>{item.name}</Text>}
 		</TouchableOpacity>
 	);
 };
@@ -27,6 +39,5 @@ const styles = StyleSheet.create({
 		width: 40,
 		aspectRatio: 1,
 		resizeMode: "contain",
-		marginRight: 7,
 	},
 });

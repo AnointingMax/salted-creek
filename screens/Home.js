@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { FlatList, SafeAreaView, StyleSheet } from "react-native";
+import React, { useMemo, useRef, useState } from "react";
+import { FlatList, SafeAreaView, StyleSheet, View } from "react-native";
 import {
 	Text,
 	ProductsItem,
@@ -7,15 +7,24 @@ import {
 	SearchBar,
 	SectionHeader,
 	BrandItem,
+	Animation,
 } from "../components";
 import { brands, FONTS, products } from "../constants";
 import { MaterialCommunityIcons, SimpleLineIcons } from "@expo/vector-icons";
 import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
+import BottomSheet from "@gorhom/bottom-sheet";
 
 const Home = () => {
 	const colorScheme = useColorScheme();
+
 	const [search, setSearch] = useState("");
+
+	// ref
+	const bottomSheetRef = useRef(null);
+
+	const snapPoints = useMemo(() => ["1%", "100%"], []);
+
 	return (
 		<SafeAreaView
 			style={[styles.page, { backgroundColor: Colors[colorScheme].background }]}
@@ -40,6 +49,7 @@ const Home = () => {
 							rightIcon={
 								<SimpleLineIcons name="handbag" size={20} color="black" />
 							}
+							iconColor={Colors.greyBackground}
 						/>
 						<Text style={[FONTS.h1, styles.padding]}>Hello</Text>
 						<Text
@@ -51,7 +61,11 @@ const Home = () => {
 						>
 							Welcome to Saltedcreek Emporium
 						</Text>
-						<SearchBar search={search} setSearch={setSearch} />
+						<SearchBar
+							search={search}
+							setSearch={setSearch}
+							bottomSheetRef={bottomSheetRef}
+						/>
 						<SectionHeader title="Choose Brand" />
 						<FlatList
 							data={brands}
@@ -65,6 +79,23 @@ const Home = () => {
 					</>
 				}
 			/>
+			<BottomSheet
+				ref={bottomSheetRef}
+				index={0}
+				snapPoints={snapPoints}
+				enablePanDownToClose={true}
+				animateOnMount={true}
+				backgroundStyle={{ backgroundColor: Colors[colorScheme].background }}
+			>
+				<View
+					style={[
+						styles.container,
+						{ backgroundColor: Colors[colorScheme].background },
+					]}
+				>
+					<Animation bottomSheetRef={bottomSheetRef} />
+				</View>
+			</BottomSheet>
 		</SafeAreaView>
 	);
 };
@@ -76,4 +107,10 @@ const styles = StyleSheet.create({
 		flex: 1,
 	},
 	padding: { paddingHorizontal: 17 },
+	container: {
+		flex: 1,
+		justifyContent: "center",
+		alignItems: "center",
+		backgroundColor: "#F5FCFF",
+	},
 });

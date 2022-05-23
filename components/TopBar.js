@@ -1,6 +1,5 @@
 import React from "react";
 import { StyleSheet, TouchableOpacity, View } from "react-native";
-import Colors from "../constants/Colors";
 
 const TopBar = ({
 	style,
@@ -8,6 +7,7 @@ const TopBar = ({
 	rightIcon,
 	leftIconPress,
 	rightIconPress,
+	middleIcon,
 	iconColor,
 }) => {
 	return (
@@ -23,6 +23,7 @@ const TopBar = ({
 			>
 				{leftIcon}
 			</TouchableOpacity>
+			{middleIcon}
 			<TouchableOpacity
 				onPress={rightIconPress}
 				style={[
@@ -44,12 +45,13 @@ const styles = StyleSheet.create({
 	wrapper: {
 		flexDirection: "row",
 		justifyContent: "space-between",
+		alignItems: "center",
 		marginBottom: 10,
 		paddingHorizontal: 17,
 		zIndex: 1,
 	},
 	iconButton: {
 		padding: 12,
-		borderRadius: "50%",
+		borderRadius: 100,
 	},
 });

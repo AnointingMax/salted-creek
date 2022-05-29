@@ -47,7 +47,7 @@ const ProductDetails = () => {
 						color="black"
 					/>
 				}
-				rightIcon={<SimpleLineIcons name="handbag" size={22} color="black" />}
+				rightIcon={<SimpleLineIcons name="handbag" size={20} color="black" />}
 				leftIconPress={() => navigation.goBack()}
 			/>
 			<FlatList

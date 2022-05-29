@@ -98,14 +98,9 @@ const Reviews = () => {
 								<MaterialCommunityIcons
 									name="square-edit-outline"
 									size={24}
-									color="black"
+									color={Colors[colorScheme].text}
 								/>
-								<Text
-									style={[
-										FONTS.header,
-										{ marginLeft: 1, fontSize: 16, color: "black" },
-									]}
-								>
+								<Text style={[FONTS.header, { marginLeft: 1, fontSize: 16 }]}>
 									Add Review
 								</Text>
 							</TouchableOpacity>

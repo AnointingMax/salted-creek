@@ -16,7 +16,7 @@ import { RootStackParamList, RootTabParamList } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 
 import { Ionicons, SimpleLineIcons } from '@expo/vector-icons';
-import { Home, ProductDetails, Reviews, Search } from '../screens';
+import { Home, ProductDetails, Reviews, Search, WishList } from '../screens';
 import { createSharedElementStackNavigator } from 'react-navigation-shared-element';
 
 
@@ -83,10 +83,10 @@ function BottomTabNavigator() {
                 })}
             />
             <BottomTab.Screen
-                name="TabTwo"
-                component={TabTwoScreen}
+                name="WishList"
+                component={WishList}
                 options={{
-                    title: 'Tab Two',
+                    title: 'WishList',
                     tabBarIcon: ({ color }) => <Ionicons name="heart-outline" size={28} color={color} />,
                 }}
             />

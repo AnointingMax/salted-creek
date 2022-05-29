@@ -3,12 +3,12 @@ import { StyleSheet, TouchableOpacity, View } from "react-native";
 import { FONTS } from "../constants";
 import Text from "./Text";
 
-const SectionHeader = ({ title, subtitle, noSubTitle }) => {
+const SectionHeader = ({ title, subtitle, noSubTitle, onPress }) => {
 	return (
 		<View style={styles.wrapper}>
 			<Text style={FONTS.header}>{title}</Text>
 			{!noSubTitle && (
-				<TouchableOpacity>
+				<TouchableOpacity onPress={onPress}>
 					<Text style={{ opacity: 0.4 }}>
 						{subtitle ? subtitle : "View All"}
 					</Text>

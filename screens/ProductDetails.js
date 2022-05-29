@@ -54,7 +54,7 @@ const ProductDetails = () => {
 				data={product.reviews.slice(0, 3)}
 				keyExtractor={(_, index) => `${index}`}
 				contentContainerStyle={{
-					paddingBottom: 50,
+					paddingBottom: insets.bottom + 50,
 				}}
 				bounces={false}
 				showsVerticalScrollIndicator={false}
@@ -172,7 +172,10 @@ const ProductDetails = () => {
 								)}
 							</>
 						)}
-						<SectionHeader title="Reviews" />
+						<SectionHeader
+							title="Reviews"
+							onPress={() => navigation.navigate("Reviews", { id: product.id })}
+						/>
 					</View>
 				}
 			/>

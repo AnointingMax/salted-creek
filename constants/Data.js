@@ -213,6 +213,71 @@ const products = [
 				review:
 					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
 			},
+			{
+				id: 1,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 2,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 3,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 4,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
+			{
+				id: 5,
+				user: {
+					image:
+						"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6ab0c05-93ab-4d47-8739-9dd7d7d030cf/sportswear-jersey-crew-MtHpfn.png",
+					firstName: "Ronald",
+					lastName: "Richards",
+				},
+				rating: 4.5,
+				time: "12 Sep, 2020",
+				review:
+					"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas blanditiis quisquam, rem quo velit! Et blanditiis necessitatibus voluptatum non?",
+			},
 		],
 	},
 	{

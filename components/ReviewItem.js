@@ -7,10 +7,16 @@ import useColorScheme from "../hooks/useColorScheme";
 import StarRating from "react-native-star-rating";
 import { FONTS } from "../constants";
 
-const ReviewItem = ({ item }) => {
+const ReviewItem = ({ item, reviewsPage }) => {
 	const colorScheme = useColorScheme();
 	return (
-		<View style={[styles.padding, styles.reviewWrapper]}>
+		<View
+			style={[
+				styles.padding,
+				styles.reviewWrapper,
+				{ marginBottom: reviewsPage ? 30 : 15 },
+			]}
+		>
 			<View style={styles.reviewdetails}>
 				<Image source={{ uri: item.user.image }} style={styles.reviewImage} />
 				<View style={styles.info}>
@@ -47,7 +53,7 @@ const ReviewItem = ({ item }) => {
 					</View>
 				</View>
 			</View>
-			<Text numberOfLines={2} style={[styles.textJustify]}>
+			<Text numberOfLines={reviewsPage ? 3 : 2} style={[styles.textJustify]}>
 				{item.review}
 			</Text>
 		</View>

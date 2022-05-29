@@ -24,17 +24,21 @@ const TopBar = ({
 				{leftIcon}
 			</TouchableOpacity>
 			{middleIcon}
-			<TouchableOpacity
-				onPress={rightIconPress}
-				style={[
-					styles.iconButton,
-					{
-						backgroundColor: iconColor,
-					},
-				]}
-			>
-				{rightIcon}
-			</TouchableOpacity>
+			{rightIcon ? (
+				<TouchableOpacity
+					onPress={rightIconPress}
+					style={[
+						styles.iconButton,
+						{
+							backgroundColor: iconColor,
+						},
+					]}
+				>
+					{rightIcon}
+				</TouchableOpacity>
+			) : (
+				<View style={{ width: 42 }}></View>
+			)}
 		</View>
 	);
 };

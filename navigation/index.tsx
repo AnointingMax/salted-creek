@@ -16,7 +16,7 @@ import { RootStackParamList, RootTabParamList } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 
 import { Ionicons, SimpleLineIcons } from '@expo/vector-icons';
-import { Home, ProductDetails, Reviews, Search, WishList } from '../screens';
+import { AddReview, Home, ProductDetails, Reviews, Search, WishList } from '../screens';
 import { createSharedElementStackNavigator } from 'react-navigation-shared-element';
 
 
@@ -48,6 +48,7 @@ function RootNavigator() {
             }} />
             <Stack.Screen name="Search" component={Search} options={{ headerShown: false }} />
             <Stack.Screen name="Reviews" component={Reviews} options={{ headerShown: false }} />
+            <Stack.Screen name="AddReview" component={AddReview} options={{ headerShown: false }} />
             <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
         </Stack.Navigator>
     );

@@ -1,6 +1,7 @@
 import Animation from "./Animation";
 import BrandItem from "./BrandItem";
 import BottomButton from "./BottomButton";
+import CartItem from "./CartItem";
 import FormElement from "./FormElement";
 import ProductsItem from "./ProductsItem";
 import SearchBar from "./SearchBar";
@@ -13,6 +14,7 @@ export {
     Animation,
     BrandItem,
     BottomButton,
+    CartItem,
     FormElement,
     ProductsItem,
     SearchBar,

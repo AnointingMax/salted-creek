@@ -16,7 +16,7 @@ import { RootStackParamList, RootTabParamList } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 
 import { Ionicons, SimpleLineIcons } from '@expo/vector-icons';
-import { AddReview, Home, ProductDetails, Reviews, Search, WishList } from '../screens';
+import { AddReview, Cart, Home, ProductDetails, Reviews, Search, WishList } from '../screens';
 import { createSharedElementStackNavigator } from 'react-navigation-shared-element';
 
 
@@ -92,10 +92,10 @@ function BottomTabNavigator() {
                 }}
             />
             <BottomTab.Screen
-                name="TabThree"
-                component={TabTwoScreen}
+                name="Cart"
+                component={Cart}
                 options={{
-                    title: 'Tab Three',
+                    title: 'Cart',
                     tabBarIcon: ({ color }) => <SimpleLineIcons name="handbag" size={28} color={color} />,
                 }}
             />

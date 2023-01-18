@@ -7,7 +7,7 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import { MaterialCommunityIcons, SimpleLineIcons } from "@expo/vector-icons";
-import { ReviewItem, SectionHeader, Text, TopBar } from "../components";
+import { BottomButton, ReviewItem, SectionHeader, Text, TopBar } from "../components";
 import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
 import { FONTS, products, sizes, SIZES } from "../constants";
@@ -49,6 +49,7 @@ const ProductDetails = () => {
                 }
                 rightIcon={<SimpleLineIcons name="handbag" size={20} color="black" />}
                 leftIconPress={() => navigation.goBack()}
+                rightIconPress={() => navigation.navigate("Cart")}
             />
             <FlatList
                 data={product.reviews.slice(0, 3)}
@@ -179,27 +180,7 @@ const ProductDetails = () => {
                     </View>
                 }
             />
-            <View
-                style={{
-                    position: "absolute",
-                    bottom: 0,
-                    height: insets.bottom + 50,
-                    width,
-                    backgroundColor: Colors[colorScheme].tint,
-                }}
-            >
-                <TouchableOpacity
-                    activeOpacity={0.5}
-                    style={{
-                        width,
-                        height: 50,
-                        alignItems: "center",
-                        justifyContent: "center",
-                    }}
-                >
-                    <Text style={[FONTS.header]}>Add to Cart</Text>
-                </TouchableOpacity>
-            </View>
+            <BottomButton text="Add to Cart" />
         </View>
     );
 };

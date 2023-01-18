@@ -8,7 +8,7 @@ import { FONTS, SIZES } from "../constants";
 
 const width = SIZES.width;
 
-const BottomButton = ({ text, onPress }) => {
+const BottomButton = ({ text, onPress, noInsets }) => {
     const colorScheme = useColorScheme();
     const insets = useSafeAreaInsets();
     return (
@@ -16,7 +16,7 @@ const BottomButton = ({ text, onPress }) => {
             style={{
                 position: "absolute",
                 bottom: 0,
-                height: insets.bottom + 50,
+                height: noInsets ? 50 : insets.bottom + 50,
                 width,
                 backgroundColor: Colors[colorScheme].tint,
             }}
